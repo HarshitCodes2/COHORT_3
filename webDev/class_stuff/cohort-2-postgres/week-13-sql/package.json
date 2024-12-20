@@ -1,0 +1,14 @@
+{
+  "name": "sql-commands",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.10",
+    "pg": "^8.13.1",
+    "psql": "^0.0.1"
+  }
+}

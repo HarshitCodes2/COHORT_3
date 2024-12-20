@@ -1,0 +1,222 @@
+button{
+  border: 1px solid transparent;  
+}
+
+.itemContainer{
+  display: flex;
+  min-height: 100vh;
+  background-color: #fff;
+  font-family: "Breite Grotesk Regular";
+  letter-spacing: 0.5px;
+}
+
+.sideBar{
+  width: 20vw;
+  border-right: 1px solid lightgray;
+  padding: 10px 50px 10px 20px;
+}
+
+.sideBarCard{
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.mainContentDiv{
+  padding: 20px 50px;
+  width: 80vw;
+}
+
+.header{
+  margin-bottom: 30px;
+}
+
+.layoutBtns{
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.iconBtns{
+  background-color: transparent;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 3px;
+  border: 1px solid transparent;  
+}
+
+.iconBtns:hover{
+  background-color: #f8cc6d41;
+}
+
+.activeIcons{
+  background-color: #f8cc6d41;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 3px;
+  border: 1px solid transparent;  
+}
+
+.itemGrid{
+  display: grid;
+  row-gap: 40px;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+}
+
+.gridItemCard{
+  width: fit-content;
+  max-width: 270px;
+  border: 1px solid lightgray;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.itemInfoGrid{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itemImg{
+  height: 210px;
+  width: 270px;
+}
+
+.itemName{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.itemPrice{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.btnDivGrid{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btnDivGrid .cardBtn{
+  background-color: rgb(248, 197, 15);
+  border: 0px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btnDivGrid .cardBtnTwo {
+  background-color: white;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid rgb(248, 197, 15);
+}
+
+.itemList{
+  display: flex;
+  flex-direction: column;
+  max-width: 75vw;
+  gap: 20px;
+}
+
+.listItemCard{
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.itemInfoList{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 20px;
+  justify-content: space-between;
+  height: fit-content;
+  align-self: center;
+}
+
+.btnDivList{
+  display: flex;
+  gap: 10px;
+}
+
+.btnDivList .cardBtn{
+  background-color: rgb(248, 197, 15);
+  border: 0px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 150px;
+}
+
+.btnDivList .cardBtnTwo{
+  background-color: white;
+  border: 1px solid rgb(248, 197, 15);
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 150px;
+}
+
+.cardBtn:hover{
+  background-color: rgb(246, 204, 50);
+  position: relative;
+  bottom: 2px;
+}
+
+.cardBtnTwo:hover{
+  background-color: rgb(227, 227, 227);
+  position: relative;
+  bottom: 2px;
+}
+
+.popupnoDiv{
+  position: fixed;
+  align-items: center;
+  width: 200px;
+  background-color: #fa95634a;
+  padding: 10px;
+  top:10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 10;
+}
+
+.popupyesDiv{
+  position: fixed;
+  align-items: center;
+  width: 200px;
+  background-color: #7afa6326;
+  padding: 10px;
+  top:10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 10;
+}
+
+.popupMsg{
+  font-family: "Breite Grotesk Regular";
+  font-size: larger;
+  color: rgb(39, 0, 0);
+}

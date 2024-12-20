@@ -1,0 +1,8 @@
+button:hover{
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+img{
+  background-size: cover;
+}
